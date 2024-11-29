@@ -1,23 +1,48 @@
 {   
     "bot1": {
-        "source": "https://github.com/<GitHub Username>/<repo1>.git",
+        "source": "https://github.com/MrKali7/custompro1.git",
+        "branch": "main", 
         "env": {
-            "TOKEN": ""
+            "API_HASH":"d188b95fd99b5a5410b8eef5fac7f132",
+	    "APP_ID":"24984353",
+	    "CHANNEL_ID":"-1002427274779",
+	    "DB_NAME":"Cluster0",
+	    "DB_URI":"mongodb+srv://molasa7348:29TiLiVemOcKUmxf@cluster0.9dkky.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+	    "FORCE_SUB_CHANNEL":"0",
+	    "FORCE_SUB_CHANNEL2":"0",
+	    "FORCE_SUB_CHANNEL3":"0",
+	    "FORCE_SUB_CHANNEL4":"0",
+	    "OWNER_ID":"6147843565",
+	    "PAYMENT_QR":"https://ibb.co/rb6vnwZ",
+	    "SHORTLINK_API":"2b491547a49b1d8274e9a619c8258029ef2b8bd0",
+	    "SHORTLINK_URL":"offerlinks.in",
+	    "TG_BOT_TOKEN":"7849968867:AAH-_CY_7Q58wT6fcw3mLdf6cTAjgnJKv5Y",
+	    "TUT_VID":"https://t.me/All_Links_Ki_Duniya",
+            "PORT":"8082"  
         },
-        "run": ""
+        "run": "main.py"  
     },
-    "bot2": {
-        "source": "https://github.com/<GitHub Username>/<repo2>.git",
+	"bot2": {
+        "source": "https://github.com/MrKali7/custompro1.git",
+        "branch": "main", 
         "env": {
-            "TOKEN": ""
+            "API_HASH":"5f7d3dc656c008c70bffdf7f4f9b8ebb",
+	    "APP_ID":"21863401",
+	    "CHANNEL_ID":"-1001830594381",
+	    "DB_NAME":"Cluster0",
+	    "DB_URI":"mongodb+srv://molasa7348:29TiLiVemOcKUmxf@cluster0.9dkky.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+	    "FORCE_SUB_CHANNEL":"0",
+	    "FORCE_SUB_CHANNEL2":"0",
+	    "FORCE_SUB_CHANNEL3":"0",
+	    "FORCE_SUB_CHANNEL4":"0",
+	    "OWNER_ID":"6230356497",
+	    "PAYMENT_QR":"https://ibb.co/rb6vnwZ",
+	    "SHORTLINK_API":"2b491547a49b1d8274e9a619c8258029ef2b8bd0",
+	    "SHORTLINK_URL":"offerlinks.in",
+	    "TG_BOT_TOKEN":"6748708552:AAEya6awhAuxwhR7ujfPWsko7j1GkCjPWjk",
+	    "TUT_VID":"https://t.me/",
+            "PORT":"8083"  
         },
-        "run": ""
-    },
-    "bot3": {
-        "source": "https://<GitHub Username>:<GitHub Token>@github.com/<GitHub Username>/<private-repo>.git",
-        "env": {
-            "TOKEN": ""
-        },
-        "run": ""
+        "run": "main.py"  
     }
 }
